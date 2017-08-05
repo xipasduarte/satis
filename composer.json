@@ -14,6 +14,10 @@
   ],
   "minimum-stability": "dev",
   "scripts": {
+    "build": [
+      "composer install",
+      "satis build satis.json public --no-interaction"
+    ],
     "deploy": "sh deploy.sh"
   }
 }
