@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "xipasduarte/advanced-custom-fields-pro": {
+            "5.6.0": {
+                "name": "xipasduarte/advanced-custom-fields-pro",
+                "version": "5.6.0",
+                "version_normalized": "5.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:xipasduarte/wp-plugin-advanced-custom-fields-pro.git",
+                    "reference": "6775c0fb557276d2bfa1cdd9a333b58df14237d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xipasduarte/wp-plugin-advanced-custom-fields-pro/zipball/6775c0fb557276d2bfa1cdd9a333b58df14237d3",
+                    "reference": "6775c0fb557276d2bfa1cdd9a333b58df14237d3",
+                    "shasum": ""
+                },
+                "time": "2017-08-04T23:36:02+00:00",
+                "type": "library",
+                "description": "WordPress plugin Advanced Custom Fields Pro."
+            },
+            "dev-master": {
+                "name": "xipasduarte/advanced-custom-fields-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:xipasduarte/wp-plugin-advanced-custom-fields-pro.git",
+                    "reference": "6775c0fb557276d2bfa1cdd9a333b58df14237d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xipasduarte/wp-plugin-advanced-custom-fields-pro/zipball/6775c0fb557276d2bfa1cdd9a333b58df14237d3",
+                    "reference": "6775c0fb557276d2bfa1cdd9a333b58df14237d3",
+                    "shasum": ""
+                },
+                "time": "2017-08-04T23:36:02+00:00",
+                "type": "library",
+                "description": "WordPress plugin Advanced Custom Fields Pro."
+            }
+        }
+    }
+}

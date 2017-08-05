@@ -1,0 +1,10 @@
+/vendor/
+/public/
+.DS_Store
+
+# master branch stuff
+.editorconfig
+composer.*
+deploy.sh
+README.md
+satis.json
