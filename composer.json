@@ -14,6 +14,6 @@
   ],
   "minimum-stability": "dev",
   "scripts": {
-    "build": "satis build satis.json public --no-interaction"
+    "build": "@composer install && satis build satis.json public --no-interaction"
   }
 }
