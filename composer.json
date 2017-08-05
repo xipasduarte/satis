@@ -2,6 +2,7 @@
   "name": "xipasduarte/satis",
   "description": "Composer Satis repository reference for xipasduarte's premium packages.",
   "type": "project",
+  "homepage": "https://github.com/xipasduarte/satis",
   "require": {
     "composer/satis": "dev-master"
   },
@@ -14,8 +15,9 @@
   ],
   "minimum-stability": "dev",
   "scripts": {
+    "install": "@composer install",
     "build": [
-      "composer install",
+      "@install",
       "satis build satis.json public --no-interaction"
     ],
     "deploy": "sh deploy.sh"

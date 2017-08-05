@@ -13,3 +13,10 @@ Simple, actually. There are 3 parts to it:
 [1]: https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md#satis
 [2]: https://packagist.com/
 [3]: https://getcomposer.org/doc/articles/scripts.md#scripts
+
+## Usage
+
+There are two scripts, triggered via `composer run-script <name>`:
+
+- `build`: If you want to see what the output would be like. This script installs the dependencies and builds your satis static repository on the `public/` folder.
+- `deploy`: This triggers the `deploy.sh` script. It's what you would trigger to make deploy, manually or through Continuous Integration, to the `gh-pages` branch of the remote repository to have your Satis hosted on GitHub Pages.
