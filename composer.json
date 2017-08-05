@@ -1,0 +1,19 @@
+{
+  "name": "xipasduarte/satis",
+  "description": "Composer Satis repository reference for xipasduarte's premium packages.",
+  "type": "project",
+  "require": {
+    "composer/satis": "dev-master"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pedro Duarte",
+      "email": "xipasduarte@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "scripts": {
+    "build": "satis build satis.json public --no-interaction"
+  }
+}
