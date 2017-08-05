@@ -16,14 +16,15 @@ if [ 0 != $? ]; then
 
   # Everything is being tracked, so remove it
   git rm --cached -r ./
-fi
 
-# Use special ignore for deploy.
-mv .satisignore .gitignore
+  # Use special ignore for deploy.
+  mv .satisignore .gitignore
+fi
 
 
 # Build static `composer` repository with `composer/satis`.
 cd ..
+composer run-script install-deps
 composer run-script build
 
 # Deploy to Github Pages.
