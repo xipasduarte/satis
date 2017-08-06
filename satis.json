@@ -2,7 +2,10 @@
   "name": "Composer for xipasduarte",
   "homepage": "https://xipasduarte.github.io/satis",
   "repositories": [
-    { "type": "vcs", "url": "git@github.com:xipasduarte/wp-plugin-advanced-custom-fields-pro.git" }
+    {
+      "type": "vcs",
+      "url": "git@github.com:xipasduarte/wp-plugin-advanced-custom-fields-pro.git"
+    }
   ],
   "require-all": true
 }
