@@ -19,25 +19,6 @@
                 "time": "2017-08-05T20:29:54+00:00",
                 "type": "wordpress-plugin",
                 "description": "WordPress plugin Advanced Custom Fields Pro."
-            },
-            "dev-master": {
-                "name": "xipasduarte/advanced-custom-fields-pro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:xipasduarte/wp-plugin-advanced-custom-fields-pro.git",
-                    "reference": "4c44e1ccd5fb24dae107722d8f5b5e65a5a4d8f0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/xipasduarte/wp-plugin-advanced-custom-fields-pro/zipball/4c44e1ccd5fb24dae107722d8f5b5e65a5a4d8f0",
-                    "reference": "4c44e1ccd5fb24dae107722d8f5b5e65a5a4d8f0",
-                    "shasum": ""
-                },
-                "time": "2017-08-05T20:29:54+00:00",
-                "type": "wordpress-plugin",
-                "description": "WordPress plugin Advanced Custom Fields Pro."
             }
         }
     }
