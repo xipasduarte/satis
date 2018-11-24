@@ -3,16 +3,17 @@
 # Cleanup (for those who don't use a CI).
 rm -rf public
 
-# Who am I?
-git config --global user.email "${GIT_USER_EMAIL}"
-git config --global user.name "${GIT_USER_NAME}"
-
 # Clone original repository.
 git clone $(git remote get-url origin) public
 
 
 # Attempt to switch to the deployment branch.
 cd public/
+
+# Who am I?
+git config user.email "${GIT_USER_EMAIL}"
+git config user.name "${GIT_USER_PASSWORD}"
+
 git checkout gh-pages
 if [ 0 != $? ]; then
   # Create a new orphan branch to track deployments

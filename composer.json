@@ -4,7 +4,7 @@
   "type": "project",
   "homepage": "https://github.com/xipasduarte/satis",
   "require": {
-    "composer/satis": "1.0.0"
+    "composer/satis": "dev-master"
   },
   "license": "MIT",
   "authors": [
