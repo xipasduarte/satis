@@ -12,7 +12,7 @@ cd public/
 
 # Who am I?
 git config user.email "${GIT_USER_EMAIL}"
-git config user.name "${GIT_USER_PASSWORD}"
+git config user.name "${GIT_USER_NAME}"
 
 git checkout gh-pages
 if [ 0 != $? ]; then
