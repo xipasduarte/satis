@@ -2,7 +2,7 @@
 
 This is my implementation of a private Satis Composer repository. It allows me to access all my private packages without having to reference too many Git repositories or buying something way too expensive for personal things ;)
 
-*Note:* You should not use a custom domain for your satis on GitHub Pages, as this will make the HTTPS option unavailable. Composer's latest version require repositories to be safe (which is a good thing) and you shouldn't go out of your way to make it any different. If you want a custom domain just deploy somewhere else.
+*Note:* Github Pages now supports SSL for Custom Domains as mentioned in the [Custom domains on GitHub Pages gain support for HTTPS][4] article.
 
 ## How does it work?
 
@@ -15,6 +15,7 @@ Simple, actually. There are 3 parts to it:
 [1]: https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md#satis
 [2]: https://packagist.com/
 [3]: https://getcomposer.org/doc/articles/scripts.md#scripts
+[4]: https://blog.github.com/2018-05-01-github-pages-custom-domains-https/
 
 ## Usage
 
