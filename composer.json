@@ -2,7 +2,7 @@
   "name": "xipasduarte/satis",
   "description": "Composer Satis repository reference for xipasduarte's premium packages.",
   "type": "project",
-  "homepage": "https://satis.xipasduarte.com",
+  "homepage": "https://github.com/xipasduarte/satis",
   "require": {
     "composer/satis": "dev-master"
   },
