@@ -96,6 +96,25 @@
                 "type": "wordpress-plugin",
                 "description": "WordPress plugin Advanced Custom Fields Pro."
             },
+            "5.8.7": {
+                "name": "xipasduarte/advanced-custom-fields-pro",
+                "version": "5.8.7",
+                "version_normalized": "5.8.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:xipasduarte/wp-plugin-advanced-custom-fields-pro.git",
+                    "reference": "91384d993d4c19930a0c56ef9d78e199a856606f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xipasduarte/wp-plugin-advanced-custom-fields-pro/zipball/91384d993d4c19930a0c56ef9d78e199a856606f",
+                    "reference": "91384d993d4c19930a0c56ef9d78e199a856606f",
+                    "shasum": ""
+                },
+                "time": "2019-12-07T15:25:33+00:00",
+                "type": "wordpress-plugin",
+                "description": "WordPress plugin Advanced Custom Fields Pro."
+            },
             "dev-master": {
                 "name": "xipasduarte/advanced-custom-fields-pro",
                 "version": "dev-master",
@@ -103,15 +122,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:xipasduarte/wp-plugin-advanced-custom-fields-pro.git",
-                    "reference": "0badd7af777bdda78623d998424fc77acf5131e1"
+                    "reference": "91384d993d4c19930a0c56ef9d78e199a856606f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xipasduarte/wp-plugin-advanced-custom-fields-pro/zipball/0badd7af777bdda78623d998424fc77acf5131e1",
-                    "reference": "0badd7af777bdda78623d998424fc77acf5131e1",
+                    "url": "https://api.github.com/repos/xipasduarte/wp-plugin-advanced-custom-fields-pro/zipball/91384d993d4c19930a0c56ef9d78e199a856606f",
+                    "reference": "91384d993d4c19930a0c56ef9d78e199a856606f",
                     "shasum": ""
                 },
-                "time": "2019-06-23T17:07:16+00:00",
+                "time": "2019-12-07T15:25:33+00:00",
                 "type": "wordpress-plugin",
                 "description": "WordPress plugin Advanced Custom Fields Pro."
             }
